@@ -119,9 +119,9 @@ namespace RaspaTela.Servico
                 }
 
                 //Deletar dados DB - DELETE
-                var entityToDelete = context.TB_Moeda_Estrangeira.FirstOrDefault(m => m.ID == 9);
-                context.TB_Moeda_Estrangeira.Remove(entityToDelete);
-                context.SaveChanges();
+                //var entityToDelete = context.TB_Moeda_Estrangeira.FirstOrDefault(m => m.ID == 9);
+                //context.TB_Moeda_Estrangeira.Remove(entityToDelete);
+                //context.SaveChanges();
 
             }
             catch (Exception ex)
@@ -202,13 +202,13 @@ namespace RaspaTela.Servico
             {
                 using var context = new DBContext();
 
-                var insertLog = new LogServico()
+                var insertLog = new LogErro()
                 {
                     Descricao = descricao,
-                    Data_Log = DateTime.Now
+                    Data_Log_Erro = DateTime.Now
                 };
 
-                context.TB_Log_Servico.Add(insertLog);
+                context.TB_Log_Erro.Add(insertLog);
                 context.SaveChanges();
             }
             catch (Exception ex)
