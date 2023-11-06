@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NFK3qirykr3ypmORndrvU7R3vH3wTpa/gzylJtc8lyRBJQsKfE/JYcExVt4TmwuCkx234JvyV8Z7pv/AXZ1+3w==",
+  "dgSpecHash": "1qzgYrg3zS5Oc4V8ZOwqHXZofc4geaWRlY//W7Q1nY325Pgly/TeV9qZTRvStdALzQjYLPApgsyAgg21WVd6BA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodrigo\\Desktop\\ESTUDOS\\ServicoRaspaTela\\ServicoRaspaTela\\RaspaTela.Servico.csproj",
+  "projectFilePath": "C:\\Users\\Rodrigo\\Documents\\Projetos GIT\\ServicoRaspaTela\\ServicoRaspaTela\\ServicoRaspaTela\\RaspaTela.Servico.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rodrigo\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Rodrigo\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

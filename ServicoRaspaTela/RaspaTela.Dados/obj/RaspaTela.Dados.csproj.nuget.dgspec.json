@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodrigo\\Desktop\\ESTUDOS\\ServicoRaspaTela\\RaspaTela.Dados\\RaspaTela.Dados.csproj": {}
+    "C:\\Users\\Rodrigo\\Documents\\Projetos GIT\\ServicoRaspaTela\\ServicoRaspaTela\\RaspaTela.Dados\\RaspaTela.Dados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodrigo\\Desktop\\ESTUDOS\\ServicoRaspaTela\\RaspaTela.Dados\\RaspaTela.Dados.csproj": {
+    "C:\\Users\\Rodrigo\\Documents\\Projetos GIT\\ServicoRaspaTela\\ServicoRaspaTela\\RaspaTela.Dados\\RaspaTela.Dados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodrigo\\Desktop\\ESTUDOS\\ServicoRaspaTela\\RaspaTela.Dados\\RaspaTela.Dados.csproj",
+        "projectUniqueName": "C:\\Users\\Rodrigo\\Documents\\Projetos GIT\\ServicoRaspaTela\\ServicoRaspaTela\\RaspaTela.Dados\\RaspaTela.Dados.csproj",
         "projectName": "RaspaTela.Dados",
-        "projectPath": "C:\\Users\\Rodrigo\\Desktop\\ESTUDOS\\ServicoRaspaTela\\RaspaTela.Dados\\RaspaTela.Dados.csproj",
+        "projectPath": "C:\\Users\\Rodrigo\\Documents\\Projetos GIT\\ServicoRaspaTela\\ServicoRaspaTela\\RaspaTela.Dados\\RaspaTela.Dados.csproj",
         "packagesPath": "C:\\Users\\Rodrigo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodrigo\\Desktop\\ESTUDOS\\ServicoRaspaTela\\RaspaTela.Dados\\obj\\",
+        "outputPath": "C:\\Users\\Rodrigo\\Documents\\Projetos GIT\\ServicoRaspaTela\\ServicoRaspaTela\\RaspaTela.Dados\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

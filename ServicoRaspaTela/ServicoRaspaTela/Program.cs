@@ -15,7 +15,7 @@ namespace RaspaTela.Dados
             var builder = new HostBuilder()
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.AddHostedService<RaspaTelaService>();
+                    services.AddHostedService<RaspaTelaServico>();
                 });
 
             builder.UseEnvironment(asService ? EnvironmentName.Production : EnvironmentName.Development);
