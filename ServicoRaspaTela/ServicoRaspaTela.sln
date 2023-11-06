@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaspaTela.Servico", "ServicoRaspaTela\RaspaTela.Servico.csproj", "{BDAF45EE-5118-4460-B4A8-0EE629208101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaspaTela.Dados", "RaspaTela.Dados\RaspaTela.Dados.csproj", "{E720461B-358F-426D-877F-93C454B7F504}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDAF45EE-5118-4460-B4A8-0EE629208101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAF45EE-5118-4460-B4A8-0EE629208101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAF45EE-5118-4460-B4A8-0EE629208101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAF45EE-5118-4460-B4A8-0EE629208101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E720461B-358F-426D-877F-93C454B7F504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E720461B-358F-426D-877F-93C454B7F504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E720461B-358F-426D-877F-93C454B7F504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E720461B-358F-426D-877F-93C454B7F504}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ECF7F64-CB1F-4E9C-AF2C-6ED194ACF48B}
+	EndGlobalSection
+EndGlobal

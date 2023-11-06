@@ -1,0 +1,12 @@
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\bin\Debug\net6.0\RaspaTela.Dados.deps.json
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\bin\Debug\net6.0\RaspaTela.Dados.dll
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\bin\Debug\net6.0\RaspaTela.Dados.pdb
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\obj\Debug\net6.0\RaspaTela.Dados.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\obj\Debug\net6.0\RaspaTela.Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\obj\Debug\net6.0\RaspaTela.Dados.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\obj\Debug\net6.0\RaspaTela.Dados.AssemblyInfo.cs
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\obj\Debug\net6.0\RaspaTela.Dados.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\obj\Debug\net6.0\RaspaTela.Dados.dll
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\obj\Debug\net6.0\refint\RaspaTela.Dados.dll
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\obj\Debug\net6.0\RaspaTela.Dados.pdb
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\RaspaTela.Dados\obj\Debug\net6.0\ref\RaspaTela.Dados.dll

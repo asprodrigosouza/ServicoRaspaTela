@@ -1,0 +1,15 @@
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\bin\Debug\net6.0\ServicoRaspaTela.exe
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\bin\Debug\net6.0\ServicoRaspaTela.deps.json
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\bin\Debug\net6.0\ServicoRaspaTela.runtimeconfig.json
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\bin\Debug\net6.0\ServicoRaspaTela.dll
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\bin\Debug\net6.0\ServicoRaspaTela.pdb
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\obj\Debug\net6.0\ServicoRaspaTela.csproj.AssemblyReference.cache
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\obj\Debug\net6.0\ServicoRaspaTela.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\obj\Debug\net6.0\ServicoRaspaTela.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\obj\Debug\net6.0\ServicoRaspaTela.AssemblyInfo.cs
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\obj\Debug\net6.0\ServicoRaspaTela.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\obj\Debug\net6.0\ServicoRaspaTela.dll
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\obj\Debug\net6.0\refint\ServicoRaspaTela.dll
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\obj\Debug\net6.0\ServicoRaspaTela.pdb
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\obj\Debug\net6.0\ServicoRaspaTela.genruntimeconfig.cache
+C:\Users\Rodrigo\Desktop\ESTUDOS\ServicoRaspaTela\ServicoRaspaTela\obj\Debug\net6.0\ref\ServicoRaspaTela.dll
