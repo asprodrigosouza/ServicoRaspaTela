@@ -80,7 +80,7 @@ namespace RaspaTela.Servico
                 if (moedas.Count > 0 && crawlerCotacao != null && !moedas.Equals(crawlerCotacao))
                 {
 
-                    foreach (var c in crawlerCotacao)
+                    foreach (var c in crawlerCotacao) 
                     {
                         if (possuiMoeda(c.Descricao))
                         {
@@ -89,7 +89,7 @@ namespace RaspaTela.Servico
                             //Atualizar dados BD - UPDATE
                             var updateMoedas = context.TB_Moeda_Estrangeira.Find(capturarMoedaNoBD.FirstOrDefault().ID);
 
-                            if (!(updateMoedas.Valor == c.Valor))
+                            if (updateMoedas.Valor != c.Valor)
                             {
                                 updateMoedas.Valor = c.Valor;
                                 updateMoedas.Data_Inclusao = DateTime.Now;
@@ -156,9 +156,11 @@ namespace RaspaTela.Servico
                 var dadosCotacao = rowCotacao.FindElements(
                     By.TagName("td"));
 
+                string valorMoeda = dadosCotacao[1].Text;
+
                 var cotacao = new MoedaEstrangeira();
                 cotacao.Descricao = dadosCotacao[0].Text;
-                cotacao.Valor = dadosCotacao[1].Text;
+                cotacao.Valor = valorMoeda.Length > 1 ? valorMoeda.Substring(0, 4) : valorMoeda;
                 cotacao.Data_Inclusao = DateTime.Now;
 
                 cotacoes.Add(cotacao);
