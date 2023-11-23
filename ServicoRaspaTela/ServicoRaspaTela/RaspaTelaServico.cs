@@ -3,7 +3,8 @@ using Microsoft.Extensions.Hosting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using RaspaTela.Dados.Models;
-
+using RestSharp;
+using System.Text;
 
 namespace RaspaTela.Servico
 {
@@ -87,6 +88,7 @@ namespace RaspaTela.Servico
                             var capturarMoedaNoBD = context.TB_Moeda_Estrangeira.Where(d => d.Descricao == c.Descricao).ToList();
 
                             //Atualizar dados BD - UPDATE
+                            
                             var updateMoedas = context.TB_Moeda_Estrangeira.Find(capturarMoedaNoBD.FirstOrDefault().ID);
 
                             if (updateMoedas.Valor != c.Valor)
@@ -97,8 +99,9 @@ namespace RaspaTela.Servico
                                 context.SaveChanges();
 
                                 InserirLog($"Moeda {c.Descricao} atualizada com sucesso");
-                            }
 
+                                enviarMensagemWhatsapp($@"Conforme solicitado a moeda *{c.Descricao.Trim()}* abaixou e está no valor de *{c.Valor}*.");
+                            }
                         }
                         else
                         {
@@ -107,7 +110,7 @@ namespace RaspaTela.Servico
                             {
                                 Descricao = c.Descricao,
                                 Valor = c.Valor,
-                                Data_Inclusao = DateTime.Now
+                                Data_Inclusao = DateTime.Now 
                             };
 
                             context.TB_Moeda_Estrangeira.Add(insertMoedas);
@@ -231,6 +234,34 @@ namespace RaspaTela.Servico
                 return false;
         }
         #endregion
+        public async void enviarMensagemWhatsapp(string mensagem)
+        {
+            try
+            {
+                var parameters = new System.Collections.Specialized.NameValueCollection();
+                var client = new System.Net.WebClient();
+                var url = "https://app.whatsgw.com.br/api/WhatsGw/Send/";
+                string celularRemetente = "5511982484456";
+                string celularDestinatario = "5511982484456";
+
+                parameters.Add("apikey", "495f077b-a39a-4654-8927-67b641f92d85"); //Your api key
+                parameters.Add("phone_number", celularRemetente); //Your connected number
+                parameters.Add("contact_phone_number", celularDestinatario); //Your number text to received message
+                parameters.Add("message_type", "text");
+                parameters.Add("message_body", mensagem);
+                
+                byte[] response_data;
+
+                response_data = client.UploadValues(url, "POST", parameters);
+
+                InserirLog($"Mensagem enviada com sucesso");
+
+            }
+            catch (Exception ex)
+            {
+                GravarLogErro($"Erro ao enviarMensagemWhatsapp: {ex.Message}");
+            }
+        }
 
         public void Dispose()
         {
