@@ -126,7 +126,7 @@ namespace RaspaTela.Servico
             }
             catch (Exception ex)
             {
-                GravarLogErro($"Erro ao executar serviço: {ex.Message}");
+                GravarLogErro($"Erro ao executar serviço: {ex.Message}"); 
             }
             finally
             {
